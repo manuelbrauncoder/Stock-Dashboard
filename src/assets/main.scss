@@ -1,0 +1,29 @@
+/* Für das main layout */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Rubik';
+  color: white;
+  min-height: 100dvh;
+  background: radial-gradient(71.11% 100% at 50% 0%,
+      #020204 14.6%,
+      #011f35 100%);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 180px;
+}
+
+.router-view {
+  padding: 180px;
+}
